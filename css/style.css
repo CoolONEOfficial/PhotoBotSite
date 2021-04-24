@@ -1,0 +1,67 @@
+/* CSS Document */
+body {
+	padding-top: 55px;
+}
+#page-header {
+    background: linear-gradient(135deg, #35b8b0 0%,#1c799d 100%);
+}
+#header-text {
+	color: #fff;
+}
+section {
+	padding: 40px 0;
+	position: relative;
+}
+h3.section-title {
+	margin-bottom: 30px;
+	font-weight: 400;
+}
+.icon-container {
+	background: #f9f9f9;
+	border-radius: 50%;
+	width: 124px;
+	height: 124px;
+	margin-left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.icon-container > img {
+	margin-left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	height: 100%;
+	padding: 20%;
+	-webkit-filter: invert(0.3);
+	        filter: invert(0.3);
+}
+#features i {
+	    background: #f9f9f9;
+        width: 124px;
+    border-radius: 50%;
+    height: 124px;
+    line-height: 124px;
+    border-radius: 50%;
+}
+#features h5 {
+	color: #1b99b9;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#screenshots {
+	padding-top: 50px;
+}
+#screenshots h2 {
+	font-weight: 400;
+}
+#screenshots .row {
+	margin-bottom: 80px;
+}
+#screenshots img {
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+            box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+}
+#page-footer {
+    padding: 15px 0 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,26 @@
+{
+  "projectName": "PhotoBot",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap5",
+  "frameworks": [
+    {
+      "name": "jquery_slim_33",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "fontawesome_5pro",
+      "type": "cdn"
+    }
+  ],
+  "projectType": "web",
+  "targets": []
+}
