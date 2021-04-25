@@ -19,6 +19,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd ${{ secrets.WEBSITE_PATH }}
+          cd ${{ secrets.SITE_PATH }}
           git pull
           /opt/homebrew/bin/brew services restart nginx
